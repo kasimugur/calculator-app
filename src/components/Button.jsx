@@ -1,13 +1,8 @@
-import styled from "styled-components"
 
 export default function Button() {
-  const Button = styled.button`
-  background-color: red;
-  `;
   return (
     <>
     <div className="card">
-      <Button>normal</Button>
     <button className="btn">7</button>
     <button className="btn">8</button>
     <button className="btn">9</button>

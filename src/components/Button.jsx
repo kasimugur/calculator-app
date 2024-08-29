@@ -57,10 +57,12 @@ export default function Button() {
           value={"*"} onClick={(e) => setSign(e.target.value)} className="btn"
         >x</button>
         <div className="btnReset">
-          <button onClick={() => setScore('')} className="btn">RESET</button>
-          <button onClick={() => calculator()} className="btn">=</button>
+      <button onClick={() => setScore('')} className="btn deff" id="reset">RESET</button>
+      <button onClick={() => calculator()} className="btn deff" id="enter">=</button>
         </div>
+      
       </div>
+      
     </>
   )
 }
